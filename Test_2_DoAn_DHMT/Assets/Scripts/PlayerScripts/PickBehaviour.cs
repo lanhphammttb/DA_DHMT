@@ -193,7 +193,7 @@ public class PickBehaviour : GenericBehaviour
         {
             yield return new WaitForSeconds(seconds);
             other.gameObject.SetActive(false);
-            countDiamond = countDiamond + 216;
+            countDiamond = countDiamond + 72;
             SetCountDiamondText();
             Debug.Log("Done " + Time.time);
         }
